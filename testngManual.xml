@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/chaitra/Desktop/Chaia/ATB10xAPIAutomationPrograms/src/test/java/com/chaitrachidanand/ex02_RA_TestNG_Allure/APITesting006_NonBDDStyle.java">
+        <classes>
+            <class name="com.chaitrachidanand.ex02_RA_TestNG_Allure.APITesting006_NonBDDStyle">
+                <methods>
+                    <include name="Test_NonBDD_Get"/>
+                    <include name="Test_NonBDD_Get2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
